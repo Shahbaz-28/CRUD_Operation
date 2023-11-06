@@ -1,0 +1,82 @@
+body{
+    background-color: #485460;
+    color: white;
+}
+
+.create-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+  }
+  
+  .create-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .create-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .create-label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .create-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .create-radio-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+  }
+  
+  .create-radio {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .create-input-radio {
+    margin-right: 0.3rem;
+  }
+  
+  .create-radio-label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .create-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3;
+  }
+  
